@@ -1,0 +1,41 @@
+body{
+	padding:0;
+	margin: 0;
+	background: url("../images/hall2.jpg") no-repeat ;
+	background-size:1370px 700px;
+}
+.all{
+	
+	height: 100%;
+	width: 100%;
+}
+.top{
+	padding-left:750px;
+	padding-right:80px;
+	width: auto;
+	height: 150px;
+}
+.ranking{
+	padding-top:12px;
+	float: right;
+}
+.information{
+	padding-top:25px;
+	float: left;
+}
+.down{
+	width: 100%;
+	height: auto;
+}
+.room{
+	margin-left: 60px;
+	margin-top: 20px;
+	text-align: center;
+}
+.roomlist{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder;
+	color: white;
+	height: 50px;
+}

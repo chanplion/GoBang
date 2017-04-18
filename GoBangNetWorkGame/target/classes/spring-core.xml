@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+	<context:property-placeholder file-encoding="UTF-8" location="classpath:jdbc.properties"/>
+	
+	<context:annotation-config/><!-- 启动注解配置 -->
+	<context:component-scan base-package="com.fiveGame.service"/>
+	
+	<!-- 配置类扫描器 -->
+	<!-- <context:component-scan name-generator="com.icss.day02.MyBeanNameGenerator" base-package="com.icss,sys"/> -->
+	<!-- 
+	<bean id="atm1" class="com.icss.proxy.ATMImp"></bean>
+	<bean id="atm" class="com.icss.proxy.StaticProxy">
+		<constructor-arg index="0" ref="atm1"/>
+	</bean>
+	 -->
+</beans>

@@ -1,0 +1,5 @@
+Struts2+spring4+myBatis3+boostrap3的简单DEMO工程
+需要MySQL数据支持
+需要修改修改src/main/resources/config.properties
+数据库中需要有role_info表
+表的创建和数据：document/role_info.sql
